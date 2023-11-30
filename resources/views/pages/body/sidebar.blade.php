@@ -16,6 +16,15 @@
                             </a>
                         </li>
 
+                        <li class>
+                            <a href="{{ route('dashboard') }}" class="waves-effect waves-dark">
+                                <span class="pcoded-micon">
+                                    <i class="fa fa-odnoklassniki-square"></i>
+                                </span>
+                                <span class="pcoded-mtext">Role Management</span>
+                            </a>
+                        </li>
+
                         <li class="pcoded-hasmenu">
                             <a href="javascript:void(0)" class="waves-effect waves-dark">
                                 <span class="pcoded-micon">

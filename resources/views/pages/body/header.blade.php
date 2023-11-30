@@ -33,6 +33,9 @@
 
     <link rel="stylesheet" type="text/css" href="{{asset('backend/files/assets/css/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('backend/files/assets/css/widget.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('backend/files/assets/icon/font-awesome/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('backend/files/assets/icon/icofont/css/icofont.css')}}">
 </head>
 
 <body>
