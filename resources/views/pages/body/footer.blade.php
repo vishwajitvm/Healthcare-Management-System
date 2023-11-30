@@ -5,6 +5,7 @@
 <script type="text/javascript" src="{{asset('backend/files/bower_components/popper.js/js/popper.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('backend/files/bower_components/bootstrap/js/bootstrap.min.js')}}"></script>
 
+<script src="{{asset('backend/custom/js/global.js')}}"></script>
 <script src="{{asset('backend/files/assets/pages/waves/js/waves.min.js')}}"></script>
 
 <script type="text/javascript"
