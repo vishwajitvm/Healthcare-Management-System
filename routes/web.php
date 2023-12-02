@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\authtication\AuthController;
+use App\Http\Controllers\Department\DepartmentManagementController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,4 +25,12 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified',
     Route::get('/dashboard', function () {
         return view('pages.dashboard.dashboard');
     })->name('dashboard');
+
+    //MANAGE DEPARTMENT
+    Route::controller(DepartmentManagementController::class)->group(function () {
+        Route::prefix('department')->group(function () {
+            Route::get('/view', 'index')->name('department.view');
+            
+        });
+    });
 });
